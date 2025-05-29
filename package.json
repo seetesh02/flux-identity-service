@@ -1,0 +1,32 @@
+{
+  "name": "flux-identity-service",
+  "version": "1.0.0",
+  "description": "FluxKart Identity Service - Contact reconciliation for e-commerce platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup": "node setup.js"
+  },
+  "keywords": [
+    "identity",
+    "reconciliation",
+    "contacts",
+    "flux",
+    "api"
+  ],
+  "author": "FluxKart Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^7.2.0",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
